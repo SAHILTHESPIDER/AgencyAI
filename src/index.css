@@ -1,2 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rubik+Distressed&display=swap');
 @import "tailwindcss";
 
+/* REQUIRED for Tailwind v4 dark mode */
+@custom-variant dark (&:where(.dark, .dark *));
+
+* {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+@theme {
+  --color-primary: #5044E5;
+}
